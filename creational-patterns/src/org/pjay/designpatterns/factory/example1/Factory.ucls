@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.1" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="org.pjay.designpatterns.factory.example1.FileLogger" project="creational-patterns" 
+    file="/creational-patterns/src/org/pjay/designpatterns/factory/example1/FileLogger.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="268" x="571" y="297"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.pjay.designpatterns.factory.example1.LoggerFactory" 
+    project="creational-patterns" 
+    file="/creational-patterns/src/org/pjay/designpatterns/factory/example1/LoggerFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="268" x="263" y="297"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.pjay.designpatterns.factory.example1.DataBaseLogger" 
+    project="creational-patterns" 
+    file="/creational-patterns/src/org/pjay/designpatterns/factory/example1/DataBaseLogger.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="268" x="879" y="297"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.pjay.designpatterns.factory.example1.ConsoleLogger" 
+    project="creational-patterns" 
+    file="/creational-patterns/src/org/pjay/designpatterns/factory/example1/ConsoleLogger.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="268" x="1187" y="297"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="org.pjay.designpatterns.factory.example1.Logger" project="creational-patterns" 
+    file="/creational-patterns/src/org/pjay/designpatterns/factory/example1/Logger.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="268" x="879" y="453"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="org.pjay.designpatterns.factory.example1.Application" 
+    project="creational-patterns" 
+    file="/creational-patterns/src/org/pjay/designpatterns/factory/example1/Application.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="268" x="1495" y="297"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
